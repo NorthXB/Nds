@@ -1,0 +1,8 @@
+#!/bin/bash
+
+nds -s
+clear
+wget -O /etc/config/nodogsplash https://raw.githubusercontent.com/NorthXB/Nds/main/nodogsplash && chmod +x /etc/config/nodogsplash
+wget -O /etc/nodogsplash https://raw.githubusercontent.com/NorthXB/Nds/main/htdocs && chmod +x /etc/nodogsplash
+nds -r
+echo "[+] instalasi selesai..."
